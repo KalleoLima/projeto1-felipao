@@ -9,7 +9,7 @@ if (xp <= 1000) {
 
 else if (xp >= 1001 && xp <= 2000) {
   console.log("bronze")
-  rank = "broze"
+  rank = "bronze"
 }
 
 else if (xp >= 2001 && xp <= 6000) {
