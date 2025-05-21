@@ -1,5 +1,5 @@
 let nome = "lekfera"
-let xp = 10001
+let xp = 2001
 let rank;
 
 if (xp <= 1000) {
@@ -41,6 +41,4 @@ else if (xp > 10000) {
   console.log("radiante")
   rank = "radiante"
 }
-else {
-  console.log("erro, por favor digite numero")
-}
+
