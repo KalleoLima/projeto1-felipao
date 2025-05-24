@@ -1,4 +1,4 @@
-function jogador(vitoria, derrota) {
+function jogador(vitoria = 0, derrota = 0) {
   let saldovitorias = vitoria - derrota
   let rank;
   if (saldovitorias <= 10) {
@@ -26,5 +26,5 @@ function jogador(vitoria, derrota) {
   }
   return (`o saldo de vitorias é ${saldovitorias} e o rank do jogador é ${rank}`)
 }
-const resultado = jogador(20, 10)
+const resultado = jogador()
 console.log(resultado)
